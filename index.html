@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Chrissy Hunt | Software Engineer | Full Stack Web Developer | Ruby on Rails | JavaScript | React</title>
   </head>
-  <body>
+  <body class="preload">
     <div class="container">
       <section class="banner item-a">
         <img src="images/typing.jpg">
@@ -20,5 +20,11 @@
           <p>Find me on: <a href="https://www.linkedin.com/in/chrissyhuntnyc/">LinkedIn</a> &middot; <a href="https://github.com/chrissyhunt87">GitHub</a> &middot; <a href="https://twitter.com/whereischrissy">Twitter</a>
       </section>
     </div>
+
+    <script type="text/javascript">
+      $(window).load(function() {
+        $("body").removeClass("preload");
+      });
+    </script>
   </body>
 </html>
