@@ -221,7 +221,12 @@ img.profile-pic {
 
 /* SCREEN RESIZE OPTIONS */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
+
+  body {
+    font-size: 1.2em;
+  }
+
   .container, .item-a, .item-b {
     display: block;
     width: 100%;
@@ -234,7 +239,7 @@ img.profile-pic {
 
   .item-b {
     position: relative;
-    top: -10em;
+    top: -8em;
   }
 
   .banner img {
@@ -247,5 +252,11 @@ img.profile-pic {
 
   .spotlight-content {
     background-color: #FFF;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .item-a {
+    visibility: hidden;
   }
 }
