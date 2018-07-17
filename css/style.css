@@ -250,6 +250,10 @@ img.profile-pic {
     animation: none;
   }
 
+  img.profile-pic {
+    animation: none;
+  }
+
   .spotlight-content {
     background-color: #FFF;
   }
@@ -258,5 +262,11 @@ img.profile-pic {
 @media screen and (max-width: 680px) {
   .item-a {
     visibility: hidden;
+    display: none;
+  }
+
+  .item-b {
+    position: relative;
+    top: 0;
   }
 }
