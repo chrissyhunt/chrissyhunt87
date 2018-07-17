@@ -218,3 +218,34 @@ img.profile-pic {
     top: 0;
   }
 }
+
+/* SCREEN RESIZE OPTIONS */
+
+@media screen and (max-width: 1000px) {
+  .container, .item-a, .item-b {
+    display: block;
+    width: 100%;
+  }
+
+  .item-a {
+    position: relative;
+    top: -10em;
+  }
+
+  .item-b {
+    position: relative;
+    top: -10em;
+  }
+
+  .banner img {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    left: 0;
+    animation: none;
+  }
+
+  .spotlight-content {
+    background-color: #FFF;
+  }
+}
