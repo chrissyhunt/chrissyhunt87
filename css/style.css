@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   padding: 0;
   margin: 0;
   background-color: #FFF;
@@ -56,6 +56,7 @@ body {
 
 .spotlight {
   padding: 1em;
+  align-self: center;
   -webkit-animation: fadeupin 1s;
   -moz-animation: fadeupin 1s;
   -ms-animation: fadeupin 1s;
@@ -94,22 +95,36 @@ img.profile-pic {
 }
 
 .spotlight h2 {
-  font-family: Arial;
-  font-size: 1.1em;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.2em;
   letter-spacing: 0.1em;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #DDD;
   padding: 0.2em;
-  color: #CCC;
+  color: #AAA;
   position: relative;
   top: -1em;
   z-index: -1;
 }
 
 .spotlight p {
-  font-family: Arial;
-  margin: 1em 2em;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin: 1.5em 4em;
+  line-height: 1.2em;
+}
+
+.spotlight a, a:visited {
+  color: #0074D9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.spotlight a:hover {
+  color: #7FDBFF;
+  font-weight: 300;
 }
 
 /* ANIMATION KEYFRAMES */
