@@ -127,6 +127,21 @@ img.profile-pic {
   font-weight: 300;
 }
 
+p.social-links {
+  text-align: center;
+}
+
+img.social {
+  height: 30px;
+  width: auto;
+  opacity: 0.2;
+  margin: 1em 0.4em;
+}
+
+img.social:hover {
+  opacity: 0.6;
+}
+
 /* ANIMATION KEYFRAMES */
 
 @keyframes fadein {
@@ -256,6 +271,13 @@ img.profile-pic {
 
   .spotlight-content {
     background-color: #FFF;
+  }
+
+  img.social {
+    height: 40px;
+    width: auto;
+    opacity: 0.2;
+    margin: 1em 0.4em;
   }
 }
 
