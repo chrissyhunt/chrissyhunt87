@@ -266,6 +266,7 @@ img.social:hover {
   }
 
   img.profile-pic {
+    max-width: 25%;
     animation: none;
   }
 
