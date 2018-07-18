@@ -269,16 +269,25 @@ img.social:hover {
     animation: none;
   }
 
-  .spotlight-content {
-    background-color: #FFF;
-  }
-
   img.social {
     height: 40px;
     width: auto;
     opacity: 0.2;
     margin: 1em 0.4em;
   }
+
+  .spotlight-content h2 {
+    font-size: 1.1em;
+  }
+
+  .spotlight-content {
+    background-color: #FFF;
+  }
+
+  .spotlight-content p {
+    margin: 1.5em 2em;
+  }
+
 }
 
 @media screen and (max-width: 680px) {
