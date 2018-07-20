@@ -6,6 +6,16 @@
   transition: none !important;
 }
 
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.item-a {
+  display: none;
+  visibility: hidden;
+}
+
 @supports (display: grid) {
   .container {
     height: 100vh;
@@ -21,6 +31,8 @@
   }
   
   .item-a {
+    visibility: visible;
+    display: block;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
