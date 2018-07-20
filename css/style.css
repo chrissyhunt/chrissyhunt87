@@ -16,6 +16,11 @@
   visibility: hidden;
 }
 
+.item-b {
+  width: 50%;
+  margin: 0 auto;
+}
+
 @supports (display: grid) {
   .container {
     height: 100vh;
@@ -41,6 +46,8 @@
   }
   
   .item-b {
+    width: 100%;
+    margin: 0;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
