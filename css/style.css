@@ -23,13 +23,10 @@ div.banner-headline {
 .container {
   height: 100vh;
   display: grid;
-  -ms-grid-template-columns: 45% 55%;
+  -ms-grid-columns: 45% 55%;
   grid-template-columns: 45% 55%;
-  -ms-grid-row: 100%;
   grid-row: 100%;
-  -ms-grid-column-gap: 0;
   grid-column-gap: 0;
-  -ms-grid-row-gap: 0;
   grid-row-gap: 0;
   justify-items: stretch;
   align-items: stretch;
@@ -38,25 +35,21 @@ div.banner-headline {
 }
 
 .item-a {
-  -ms-grid-column-start: 1;
+  -ms-grid-column: 1;
   grid-column-start: 1;
   grid-column-end: 2;
-  -ms-grid-column-end: 2;
+  -ms-grid-row: 1;
   grid-row-start: 1;
-  -ms-grid-row-start: 1;
   grid-row-end: 2;
-  -ms-grid-row-end: 2;
   overflow: hidden;
 }
 
 .item-b {
-  -ms-grid-column-start: 2;
+  -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-end: 3;
   grid-column-end: 3;
-  -ms-grid-row-start: 1;
+  -ms-grid-row: 1;
   grid-row-start: 1;
-  -ms-grid-row-end: 2;
   grid-row-end: 2;
 }
 
@@ -74,6 +67,7 @@ div.banner-headline {
 
 .spotlight {
   padding: 1em;
+  -ms-grid-row-align: center;
   align-self: center;
   -webkit-animation: fadeupin 1s;
   -moz-animation: fadeupin 1s;
